@@ -1,8 +1,8 @@
 FROM node:alpine
 
-WORKDIR /frontend
+WORKDIR /front-end-app
 
-ENV PATH /frontend/node_modules/.bin:$PATH
+ENV PATH /front-end-app/node_modules/.bin:$PATH
 
 COPY package.json ./
 
